@@ -18,7 +18,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 200px;
+    padding: 20px 225px;
     background-color: #1f2937;
 }
 
@@ -30,7 +30,7 @@ body {
 
 .links {
     display: flex;
-    gap: 24px;;
+    gap: 24px;
 }
 
 .links a {
@@ -49,11 +49,12 @@ body {
 .signup-1 {
     display: flex;
     justify-content: space-between;
-    padding: 20px 200px;
+    gap: 96px;
+    padding: 96px 225px 128px 225px;
     background-color: #1f2937;
 }
 
-.text-container {
+.signup-1 .text-container {
     display: flex;
     flex-direction: column;
 }
@@ -62,20 +63,33 @@ body {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    margin-bottom: 10px;
 }
 
 .signup-1 .text-container p {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 10px;
 }
 
 .signup-btn {
     background-color: #3882f6;
     border: none;
     border-radius: 6px;
-    padding: 5px 0;
+    padding: 10px 0;
     color: #f9faf8;
     font-size: 18px;
     font-weight: 600;
-    width: 128px;
+    width: 132px;
+}
+
+.img-container {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    background-color: #e5e7eb60;
+    width: 560px;
+    height: 275px;
 }
