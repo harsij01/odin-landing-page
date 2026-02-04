@@ -38,3 +38,44 @@ body {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.signup-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    background-color: #1f2937;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-1 .text-container h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.signup-1 .text-container p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup-btn {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 0;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 600;
+    width: 128px;
+}
