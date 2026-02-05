@@ -134,7 +134,7 @@ body {
     border-radius: 24px;
 }
 
-.cards .card .text {
+.cards .card p {
     text-align: center;
     font-size: 18px;
     width: 200px;
