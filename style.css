@@ -157,3 +157,28 @@ body {
     font-size: 28px;
     font-weight: 700;
 }
+
+.signup-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
+
+.signup-2 .container {
+    display: flex;
+    background-color: #3882f6;
+}
+
+.bigger-text {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.smaller-text {
+    font-size: 18px;
+}
+
+.signup-2 .container .signup-btn {
+    border: 2px solid #f9faf8;
+}
