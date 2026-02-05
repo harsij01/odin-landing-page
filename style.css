@@ -110,7 +110,6 @@ body {
 }
 
 .cards {
-    flex: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -137,4 +136,8 @@ body {
 .cards .card p {
     text-align: center;
     font-size: 18px;
+}
+
+.quote {
+    background-color: #e5e7eb;
 }
