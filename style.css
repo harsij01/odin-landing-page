@@ -6,7 +6,6 @@
 }
 
 body {
-    height: 200vh;
     width: 100vw;
     margin: 0;
     display: flex;
@@ -186,5 +185,13 @@ body {
 }
 
 .signup-2 .container .signup-btn {
-    border: 3px solid #f9faf8;
+    border: 2px solid #f9faf8;
+}
+
+.footer {
+    padding: 45px 0;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 18px;
+    text-align: center;
 }
