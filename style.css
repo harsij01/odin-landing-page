@@ -76,10 +76,10 @@ body {
     background-color: #3882f6;
     border: none;
     border-radius: 6px;
-    padding: 10px 0;
     color: #f9faf8;
     font-size: 18px;
     font-weight: 600;
+    height: 40px;
     width: 132px;
 }
 
@@ -163,11 +163,16 @@ body {
     justify-content: center;
     align-items: center;
     color: #f9faf8;
+    padding: 100px 200px 100px 200px;
 }
 
 .signup-2 .container {
     display: flex;
     background-color: #3882f6;
+    justify-content: space-between;
+    width: 100%;
+    padding: 60px 150px;
+    border-radius: 15px;
 }
 
 .bigger-text {
@@ -177,8 +182,9 @@ body {
 
 .smaller-text {
     font-size: 18px;
+    color: #e5e7eb;
 }
 
 .signup-2 .container .signup-btn {
-    border: 2px solid #f9faf8;
+    border: 3px solid #f9faf8;
 }
